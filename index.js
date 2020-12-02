@@ -8,20 +8,14 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 const promptUser = () => {
   return inquirer.prompt([
-    {
-      type: 'input',
-      name: 'name',
-      message: 'What is your name?',
-    },
-
-
+      //  GIVEN a command-line application that accepts user input
         {
-          //  GIVEN a command-line application that accepts user input
-
           type: 'input',
-          message: 'What is your user name?',
-          name: 'username',
+          name: 'name',
+          message: 'What is your name?',
+          default: 'Raquel Ceron ',
         },
+        
         {
           type: 'password',
           message: 'What is your password?',
@@ -33,23 +27,40 @@ const promptUser = () => {
           message: 'Re-enter password to confirm:',
           name: 'confirm',
         },
-      //  THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
         {
           type: 'input',
-          message: 'What is the title of new project?',
+          message: 'What is the title of New Project?',
           name: 'newProject',
         },
-        {
-            type: 'input',
-            message: 'Enter Description :',
-            name: 'description',
-          },
-          {
-            type: 'input',
-            message: 'Enter Table of Contents:',
-            name: 'contents',
-          },
+      
+          
+            {
+              name: 'contents',
+              type: 'checkbox',
+              message: 'Select to Enter Table of Contents:',
+              choices:[
+
+                '[Description](#contents)',
+                '[License](#License)',
+               '[Installation](#Installation)',
+                '[Usage](#Usage)',
+                '[Contributing](#Contributing)',
+                '[Tests](#Tests)',
+                '[Questions FAQs](#Questions)',
+                ]
+            },
+            {
+              type: 'input',
+              message: 'Enter Description :',
+              name: 'description',
+            },
+            {
+              name: 'license',
+              type: 'rawlist',
+              message: 'Select License',
+              choices:[ 'MIT','Apache_2','GPLv3','ISC','BSD',]
+              
+            },
           {
             type: 'input',
             message: 'Enter description of Installation instructions ',
@@ -66,13 +77,7 @@ const promptUser = () => {
                     'Visor de código',
                     'Registro de incidencias',]
           },
-          {
-            name: 'license',
-            type: 'rawlist',
-            message: 'Select License',
-            choices:[ 'MIT','Apache_2','GPLv3','ISC','BSD',]
-            
-          },
+          
           {
             type: 'input',
             message: 'Enter Contributing',
@@ -136,28 +141,36 @@ const promptUser = () => {
       
    */
   const generateHTML = (answers) =>
-  `<!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Reedme</title>
-  </head>
-  <body>
-    <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Hi! My name is ${answers.name}</h1>
-      <p class="lead">I am from ${answers.location}.</p>
-      <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
-      <ul class="list-group">
-        <li class="list-group-item">My GitHub username is ${answers.github}</li>
-        <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
-      </ul>
-    </div>
-  </div>
-  </body>
-  </html>`;
+  `
+  Command-line application to generate README.md
+================
+
+Create by ${answers.name}
+
+
+# Project name
+# ${answers.newProject}
+
+
+  ## Table of Contents
+  ***
+
+  ${answers.contents}
+
+
+  ## Description 
+  ***
+  General information about this project.
+
+  ${answers.description}
+  
+  ## License
+  ***
+
+  ${answers.license} 
+
+ ${answers.github}</li>
+    `;
   
   // Bonus using async/await and try/catch
   const init = async () => {
@@ -166,10 +179,11 @@ const promptUser = () => {
       const answers = await promptUser();
   
       const html = generateHTML(answers);
+
   
-      await writeFileAsync('index.html', html);
+      await writeFileAsync('README.md', html);
   
-      console.log('Successfully wrote to index.html');
+      console.log('Successfully wrote to README.md');
     } catch (err) {
       console.log(err);
     }
