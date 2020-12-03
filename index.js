@@ -1,4 +1,5 @@
 
+
 ///
 const inquirer = require('inquirer');
 const fs = require('fs');
@@ -20,25 +21,26 @@ const promptUser = () => {
           type: 'input',
           name: 'github',
           message: 'Enter your GitHub Repository',
-          default : 'https://github.com/rakeru2006',
+          default : 'https://github.com/rakeru2006/html-node',
         },
         {
           type: 'input',
           name: 'githubPage',
-          message: 'Enter your GitHub page',
-          default : 'https://rakeru2006.github.io/HW2/',
+          message: 'Enter your GitHub pages URL',
+          default : 'https://rakeru2006.github.io/html-node/',
         },
         
-        {
+       /* {
           type: 'password',
           message: 'What is your password?',
           name: 'secretText',
           mask: '?',
-        },
+        },*/
         {
           type: 'input',
           message: 'What is the title of New Project?',
           name: 'newProject',
+          default : 'Project New',
         },
             {
               name: 'contents',
@@ -64,13 +66,13 @@ const promptUser = () => {
             {
               name: 'license',
               type: 'rawlist',
-              message: 'Select License',
+              message: 'Select License :',
               choices:[ 'MIT','Apache_2','GPLv3','ISC','BSD','GNU','None'] 
             },
             {
               name: 'usage',
               type: 'checkbox',
-              message: 'Select Usage',
+              message: 'Select Usage :',
               choices:[
               'Innovate',
               'Learn and experiment',
@@ -84,20 +86,20 @@ const promptUser = () => {
             type: 'input',
             message: 'Enter description of Installation Requirements :',
             name: 'installation',
-            default :'```lorem ipsum``` ',
+            default: '```lorem ipsum``` ',
            
           },
           {
             type: 'input',
-            message: 'Enter description of Installation Steps ',
+            message: 'Enter description of Installation Steps :',
             name: 'installationSteps',
-            default :'```lorem ipsum``` ',
+            default : 'Step one ',
            
           },
           {
             name: 'contributing',
             type: 'rawlist',
-            message: 'Enter Contributing',
+            message: 'Enter type of Contributing :',
             choices:[ 
             'Report a bug',
             'Fix errors',
@@ -109,49 +111,35 @@ const promptUser = () => {
           },
           {
             type: 'input',
-            message: 'Enter Tests',
+            message: 'Enter Tests: ',
             name: 'tests',
+            default: 'Demo running',
           },
           {
             type: 'input',
-            message: 'Enter Question Was this page helpful?',
+            message: 'Enter email to answer Questions: ',
             name: 'question',
+            default: 'rakeru2006@gmail.com',
           },
     ]);
   };
   
-        /*We add a newline character to the command line argument
-      .then(answers =>{
-          console.log('Answer:  ',answers)
-       
-      })
-     
-   
 
-  
-
-      // We add a newline character to the command line argument
-      fs.appendFile('log.txt', `${process.argv[2]}\n`, (err) =>
-        err ? console.error(err) : console.log('Commit logged!')
-      );
-      
-   */
   const generateMarkdown = (answers) =>
   `
-
-
-  Command-line application to generate README.md
-  # Title Project ${answers.newProject} 
+# :sparkles: Project Title  ${answers.newProject}  :sparkles:
 ================
+## Author :bowtie:
+***
 
-Create by ${answers.name}
+Created by ${answers.name}
 
 This project  run in this github repository [Github](${answers.github})
-and can visualisate in [Github pages](${answers.githubPage})
+and can visualize in [Github pages](${answers.githubPage})
 
 
-## Table of Contents
-   
+## Table of Contents :pushpin:
+*** 
   - [Description](#description)
   - [License](#license)
   - [Usage](#usage)
@@ -163,16 +151,14 @@ and can visualisate in [Github pages](${answers.githubPage})
  -${answers.contents}
 
 
-## Description 
+## Description  :bulb:
   ***
   General information about this project.
 
   ${answers.description}
   
-## License
+## License :cop: :guardsman: :key:
   ***
-  
-  
   This proyect going to used the license:
   ~~~
   ${answers.license}
@@ -192,7 +178,7 @@ and can visualisate in [Github pages](${answers.githubPage})
   * [ISC](https://spdx.org/licenses/ISC.html)
   * [BSD](https://spdx.org/licenses/BSD-1-Clause.html)
   
-  > Maybe you want to seacrh more of this part.
+  > Maybe you want to search more of this part.
   > This is how you do it.SPDX License List
   > The SPDX License List itself is a list of commonly found licenses and
   > exceptions used in free and open or collaborative software, data, hardware,
@@ -202,38 +188,40 @@ and can visualisate in [Github pages](${answers.githubPage})
   > [SPDX License List](https://spdx.org/licenses/)
     
     
-## Usage
+## Usage :speech_balloon:  :hammer: :eyeglasses: 
   ***
 We are going to create this code to show, help and ${answers.usage}
 
-## Installation
+## Installation :feet:
 ***
-
-
-![algo](https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg)
-
 
 ${answers.installation}
 
 Small description step by step that tells how to run and develop the aplication 
+
 ${answers.installationSteps}
 
-## Tests
+
+## Tests :eyes: 
 ***
 
 Demo aplication
+
 ${answers.tests}
 
+![algo](https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg)
 
-## Contributing
+## Contributing  :man_with_gua_pi_mao:
 ***
 You can participate with this project with one of the followin examples: 
  ${answers.contributing}
 
 
-## Questions FAQs
+## Questions FAQs :question:
 ***
-${answers.question}
+
+For questions contact ${answers.newProject}
+Email${answers.question}
 
 
 
