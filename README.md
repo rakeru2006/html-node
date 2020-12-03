@@ -69,9 +69,6 @@ We are going to create this code to show, help and Innovate
 ***
 
 
-![algo](https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg)
-
-
 We need install node 
 
 Small description step by step that tells how to run and develop the aplication 
@@ -82,7 +79,7 @@ Step one
 
 Demo aplication
 Demo running
-[![video](https://github.com/rakeru2006/html-node/blob/master/animation.gif.mp4?raw=true)]
+[![video](https://github.com/rakeru2006/html-node/blob/master/animation.gif.mp4)]
 
 
 ## Contributing
