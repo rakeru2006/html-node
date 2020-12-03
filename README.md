@@ -79,7 +79,8 @@ Step one
 
 Demo aplication
 Demo running
-[![video](animation.gif)]
+
+![video](animation.gif)
 
 
 ## Contributing
