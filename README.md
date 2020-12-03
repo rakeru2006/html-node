@@ -1,8 +1,8 @@
 
-  
-
-# Project Title  Readme wit comand line  
+# :sparkles: Project Title  Professional README Generator  :sparkles:
 ================
+## Author :bowtie:
+***
 
 Created by Raquel Ceron
 
@@ -10,7 +10,7 @@ This project  run in this github repository [Github](https://github.com/rakeru20
 and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 
-## Table of Contents
+## Table of Contents :pushpin:
 *** 
   - [Description](#description)
   - [License](#license)
@@ -23,17 +23,17 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
  -- [Description](#contents),- [License](#License),- [Usage](#Usage),- [Installation](#Installation),- [Contributing](#Contributing),- [Tests](#Tests),- [Questions FAQs](#Questions)
 
 
-## Description 
+## Description  :bulb:
   ***
   General information about this project.
 
-  This aplication help to make work live easy
+  You can quickly and easily create a README file by using a command-line application to generate one.
   
-## License
+## License :cop: :guardsman: :key:
   ***
   This proyect going to used the license:
   ~~~
-  :sparkles:ISC:sparkles:
+  ISC
   ~~~
   You can read more about this in
   A list of technologies used within the project:
@@ -60,19 +60,18 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
   > [SPDX License List](https://spdx.org/licenses/)
     
     
-## :sparkles:Usage:sparkles:
+## Usage :speech_balloon:  :hammer: :eyeglasses: 
   ***
 We are going to create this code to show, help and Innovate
 
-## :sparkles:Installation:sparkles:
+## Installation :feet:
 ***
 
-
-
-
-This aplication run in command-line dynamically 
+Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
 
 Small description step by step that tells how to run and develop the aplication 
+
+
 ```
 
 npm init
@@ -83,27 +82,31 @@ touch index.js
 ![packagejson](https://github.com/rakeru2006/html-node/blob/master/packagejson.png)
 
 
-## :sparkles:Tests :sparkles:
+## Tests :eyes: 
 ***
 
 Demo aplication
-Demo running
+
+This is a image to show how work this aplication
 
 ![demogif](https://github.com/rakeru2006/html-node/blob/master/tesnodeindexjs.png)
 ![demogif](https://github.com/rakeru2006/html-node/blob/master/animation.gif)
 
-
-
-## Contributing
+## Contributing  :man_with_gua_pi_mao:
 ***
 You can participate with this project with one of the followin examples: 
  Help improve the project
 
 
-## Questions FAQs
+## Questions FAQs :question:
 ***
 
-For questions contact Readme wit comand line 
-[Email](rakeru2006@gmail.com)
+For questions contact Professional README Generator
+Emailrakeru2006@gmail.com
+
+
+
+ 
+    
 
 
