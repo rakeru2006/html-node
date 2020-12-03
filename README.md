@@ -1,6 +1,7 @@
 
   
-# Project Title  Readme.md generator with console aplication 
+
+# Project Title  Readme wit comand line  
 ================
 
 Created by Raquel Ceron
@@ -10,7 +11,7 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 
 ## Table of Contents
-   
+*** 
   - [Description](#description)
   - [License](#license)
   - [Usage](#usage)
@@ -26,15 +27,13 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
   ***
   General information about this project.
 
-  This aplication need node 
+  This aplication help to make work live easy
   
 ## License
   ***
-  
-  
   This proyect going to used the license:
   ~~~
-  ISC
+  :sparkles:ISC:sparkles:
   ~~~
   You can read more about this in
   A list of technologies used within the project:
@@ -61,26 +60,38 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
   > [SPDX License List](https://spdx.org/licenses/)
     
     
-## Usage
+## :sparkles:Usage:sparkles:
   ***
 We are going to create this code to show, help and Innovate
 
-## Installation
+## :sparkles:Installation:sparkles:
 ***
 
 
-We need install node 
+
+
+This aplication run in command-line dynamically 
 
 Small description step by step that tells how to run and develop the aplication 
-Step one 
+```
 
-## Tests
+npm init
+npm i inquirer 
+touch index.js
+
+```
+![packagejson](https://github.com/rakeru2006/html-node/blob/master/packagejson.png)
+
+
+## :sparkles:Tests :sparkles:
 ***
 
 Demo aplication
 Demo running
 
-![video](https://github.com/rakeru2006/html-node/blob/master/animation.gif)
+![demogif](https://github.com/rakeru2006/html-node/blob/master/tesnodeindexjs.png)
+![demogif](https://github.com/rakeru2006/html-node/blob/master/animation.gif)
+
 
 
 ## Contributing
@@ -92,5 +103,7 @@ You can participate with this project with one of the followin examples:
 ## Questions FAQs
 ***
 
-For questions contact Readme.md generator with console aplication
+For questions contact Readme wit comand line 
 [Email](rakeru2006@gmail.com)
+
+
