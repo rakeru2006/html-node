@@ -80,7 +80,7 @@ Step one
 Demo aplication
 Demo running
 
-![video](animation.gif)
+![video](https://github.com/rakeru2006/html-node/blob/master/animation.gif)
 
 
 ## Contributing
