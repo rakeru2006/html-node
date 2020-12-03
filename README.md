@@ -1,15 +1,12 @@
 
-  [![Example](https://dev.example)](https://example)
-
-
-  Command-line application to generate README.md
-  # Title Project Reaadme 
+  
+# Project Title  Readme.md generator with console aplication 
 ================
 
-Create by Raquel Ceron
+Created by Raquel Ceron
 
-This project  run in this github repository [Github](https://github.com/rakeru2006)
-and can visualisate in [Github pages](https://rakeru2006.github.io/HW2/)
+This project  run in this github repository [Github](https://github.com/rakeru2006/html-node)
+and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 
 ## Table of Contents
@@ -29,7 +26,7 @@ and can visualisate in [Github pages](https://rakeru2006.github.io/HW2/)
   ***
   General information about this project.
 
-  This aplication help to make work live easy
+  This aplication need node 
   
 ## License
   ***
@@ -54,7 +51,7 @@ and can visualisate in [Github pages](https://rakeru2006.github.io/HW2/)
   * [ISC](https://spdx.org/licenses/ISC.html)
   * [BSD](https://spdx.org/licenses/BSD-1-Clause.html)
   
-  > Maybe you want to seacrh more of this part.
+  > Maybe you want to search more of this part.
   > This is how you do it.SPDX License List
   > The SPDX License List itself is a list of commonly found licenses and
   > exceptions used in free and open or collaborative software, data, hardware,
@@ -66,7 +63,7 @@ and can visualisate in [Github pages](https://rakeru2006.github.io/HW2/)
     
 ## Usage
   ***
-We are going to create this code to show, help and 
+We are going to create this code to show, help and Innovate
 
 ## Installation
 ***
@@ -75,16 +72,16 @@ We are going to create this code to show, help and
 ![algo](https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg)
 
 
-```lorem ipsum``` 
+We need install node 
 
 Small description step by step that tells how to run and develop the aplication 
-```lorem ipsum``` 
+Step one 
 
 ## Tests
 ***
 
 Demo aplication
-none
+Demo running
 
 
 ## Contributing
@@ -95,9 +92,6 @@ You can participate with this project with one of the followin examples:
 
 ## Questions FAQs
 ***
-yes
 
-
-
- 
-    
+For questions contact Readme.md generator with console aplication
+[Email](rakeru2006@gmail.com)
