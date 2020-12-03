@@ -79,7 +79,7 @@ Step one
 
 Demo aplication
 Demo running
-[![video](https://github.com/rakeru2006/html-node/blob/master/animation.gif.mp4)]
+[![video](animation.gif)]
 
 
 ## Contributing
