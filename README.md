@@ -25,13 +25,15 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 
 
-## Description  :bulb:
+## Description  
+:bulb:
   ***
   General information about this project.
 
   You can quickly and easily create a README file by using a command-line application to generate one.
   
-## License :cop: :guardsman: :key:
+## License 
+:cop: :guardsman: :key:
   ***
   This proyect going to used the license:
   ~~~
@@ -62,12 +64,13 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
   > [SPDX License List](https://spdx.org/licenses/)
     
     
-## Usage :speech_balloon:  :hammer: :eyeglasses: 
+## Usage 
+:speech_balloon:  :hammer: :eyeglasses:
   ***
 We are going to create this code to show, help and Innovate
 
 ## Installation 
-
+:feet:
 ***
 
 Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
@@ -86,11 +89,12 @@ Small description step by step that tells how to run and develop the aplication
 ```
 
 Run ` node index.js` to create de README.md file 
-```
+
 ![packagejson](https://github.com/rakeru2006/html-node/blob/master/packagejson.png)
 
 
-## Tests :eyes: 
+## Tests 
+:eyes: 
 ***
 
 Demo aplication
@@ -100,13 +104,15 @@ This is a image to show how work this aplication
 ![demogif](https://github.com/rakeru2006/html-node/blob/master/tesnodeindexjs.png)
 ![demogif](https://github.com/rakeru2006/html-node/blob/master/animation.gif)
 
-## Contributing  :man_with_gua_pi_mao:
+## Contributing  
+:man_with_gua_pi_mao:
 ***
 You can participate with this project with one of the followin examples: 
  Help improve the project
 
 
-## Questions FAQs :question:
+## Questions FAQs 
+:question:
 ***
 
 For questions contact Professional README Generator
