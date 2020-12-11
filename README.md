@@ -21,7 +21,7 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
   - [Tests](#tests)
   - [Questions FAQs](#questions-faqs)
 
- -- [Description](#contents),- [License](#License),- [Usage](#Usage),- [Installation](#Installation),- [Contributing](#Contributing),- [Tests](#Tests),- [Questions FAQs](#Questions)
+
 
 
 ## Description  :bulb:
@@ -73,12 +73,17 @@ Create a .gitignore file and include node_modules/ and .DS_Store/ so that your n
 Small description step by step that tells how to run and develop the aplication 
 
 
+
+```
+ npm install
+ npm i inquirer
+ npm i jestjs
+ npm i util
+ npm init 
+ 
 ```
 
-npm init
-npm i inquirer 
-touch index.js
-
+Run ` node index.js` to create de README.md file 
 ```
 ![packagejson](https://github.com/rakeru2006/html-node/blob/master/packagejson.png)
 
