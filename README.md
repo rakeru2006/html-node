@@ -13,7 +13,7 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 ## Table of Contents :pushpin:
 *** 
-- [Description](#Description :bulb:)
+- [Description](#Description)
 - [License](#License)
 - [Usage](#Usage)
 - [Installation](#Installation)
@@ -66,7 +66,8 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
   ***
 We are going to create this code to show, help and Innovate
 
-## Installation :feet:
+## Installation 
+
 ***
 
 Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
