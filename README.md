@@ -13,7 +13,7 @@ and can visualize in [Github pages](https://rakeru2006.github.io/html-node/)
 
 ## Table of Contents :pushpin:
 *** 
-- [Description](#Description)
+- [Description](#Description :bulb:)
 - [License](#License)
 - [Usage](#Usage)
 - [Installation](#Installation)
