@@ -1,9 +1,8 @@
 [![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
 
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![deps][deps]][deps-url]
-[![tests][tests]][tests-url]
+[![npm][npm]][https://www.npmjs.com/]
+[![node][node]][https://nodejs.org/es/]
+
 
 # :sparkles: Project Title  Professional README Generator  :sparkles:
 ================
